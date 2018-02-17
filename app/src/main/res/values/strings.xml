@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Small Business app</string>
+    <string name="Title">ScrapYard Salon</string>
+    <string name="Address">Crewe, 3 Walthall Street, CW2 7DL</string>
+    <string name="PhoneNumber">+44 1270 588246</string>
+    <string name="Web">www.TheScrapYardSalon.co.uk</string>
+</resources>

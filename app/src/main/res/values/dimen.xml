@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="TitleMargin">16dp</dimen>
+    <dimen name="TitleTextSize">28sp</dimen>
+    <dimen name="DetailsTextSize">18sp</dimen>
+    <dimen name="DetailsMarginLeft_Start">20dp</dimen>
+    <dimen name="DetailsMarginTop">18dp</dimen>
+    <dimen name="IconPadding">30dp</dimen>
+</resources>

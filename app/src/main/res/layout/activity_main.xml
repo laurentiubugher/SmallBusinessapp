@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/backgroundColor">
+
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.android.smallbusinessapp.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/TitleMargin"
+        android:text="@string/Title"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/TitleTextSize"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/salon_img" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/DetailsMarginLeft_Start"
+        android:layout_marginStart="@dimen/DetailsMarginLeft_Start"
+        android:layout_marginTop="@dimen/DetailsMarginTop"
+        android:drawableLeft="@drawable/location_icon"
+        android:drawablePadding="@dimen/IconPadding"
+        android:drawableStart="@drawable/location_icon"
+        android:text="@string/Address"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/DetailsTextSize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/DetailsMarginLeft_Start"
+        android:layout_marginStart="@dimen/DetailsMarginLeft_Start"
+        android:layout_marginTop="@dimen/DetailsMarginTop"
+        android:autoLink="phone"
+        android:clickable="true"
+        android:drawableLeft="@drawable/phone_icon"
+        android:drawablePadding="@dimen/IconPadding"
+        android:drawableStart="@drawable/phone_icon"
+        android:focusable="true"
+        android:text="@string/PhoneNumber"
+        android:textSize="@dimen/DetailsTextSize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/DetailsMarginLeft_Start"
+        android:layout_marginStart="@dimen/DetailsMarginLeft_Start"
+        android:layout_marginTop="@dimen/DetailsMarginTop"
+        android:autoLink="web"
+        android:clickable="true"
+        android:drawableLeft="@drawable/web_icon"
+        android:drawablePadding="@dimen/IconPadding"
+        android:drawableStart="@drawable/web_icon"
+        android:focusable="true"
+        android:text="@string/Web"
+        android:textSize="@dimen/DetailsTextSize" />
+
+</LinearLayout>
+</ScrollView>
